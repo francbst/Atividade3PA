@@ -12,12 +12,13 @@ int main ()
   cout<< "Digite o valor do outro cateto deste triangulo: "<<endl;
   cin>>aresta.cat2;
 
-  aresta.hip = pitagoras(aresta);
+  pitagoras(aresta);
+  
+  perimetro(aresta);
 
   area(aresta);
 
-  perimetro(aresta);
-
+  
 
 
   

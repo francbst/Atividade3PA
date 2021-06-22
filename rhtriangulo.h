@@ -11,20 +11,18 @@ namespace rht
   };
 
   float pitagoras(tTriangulo t)
-  {
-    cout<<"O valor da hipotenusa é: "<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
-
-  }
-
-  float perimetro(tTriangulo t)
-  {
-    cout<<"Perimetro:"<<t.cat1 + t.cat2 + t.hip<<endl;
-  }
-
+    {
+     cout<<"O valor da hipotenusa é: "<<endl<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
+     cin>>t.hip;
+    }
+  float perimetro (tTriangulo t)
+    {
+     cout<<"Perimetro:"<<t.cat1 + t.cat2 + t.hip<<endl;
+    }
   float area(tTriangulo t)
-  {
-    cout<<"Area:"<<(t.cat1 * t.cat2) / 2<<endl;
-  }
+    {
+     cout<<"Area:"<<(t.cat1 * t.cat2) / 2<<endl;
+    }
 
   
 
