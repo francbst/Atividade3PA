@@ -12,7 +12,7 @@ namespace rht
 
   float pitagoras(tTriangulo t)
   {
-    cout<<"Hipotenusa:"<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
+    cout<<"O valor da hipotenusa é: "<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
 
   }
 
