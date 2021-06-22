@@ -4,7 +4,7 @@ using namespace std;
 
 int main ()
 {
-  rht::tTriangulo float aresta;
+  rht::tTriangulo aresta;
 
   cout<< "Digite o valor de um cateto de um triangolo retangulo: "<<endl;
   cin>>aresta.cat1;
@@ -18,9 +18,10 @@ int main ()
 
   perimetro(aresta);
 
+  cout<<"O valor da hipotenusa é "<<pitagoras(aresta)<<"."<<endl;
   cout<<"As 3 arestas do triangulo medem: "<<aresta.cat1<<", "<<aresta.cat2<<" e "<<aresta.hip<<"."<<endl;
   cout<<"A area do triangulo é de "<<area(aresta)<<"."<<endl;
   cout<<"O perimetro do triandulo é "<<perimetro(aresta)<<"."<<endl;
-  cout<<"O valor da hipotenusa é "<<pitagoras(aresta)<<"."<<endl;
+
   
 }
