@@ -6,25 +6,29 @@ namespace rht
 {
   struct tTriangulo
  {
-   float cat1; float cat2; float hip;
-
+   float cat1; float cat2;
   };
 
   float pitagoras(tTriangulo t)
-    {
-     cout<<"O valor da hipotenusa é: "<<endl<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
-     cin>>t.hip;
-    }
-  float perimetro (tTriangulo t)
-    {
-     cout<<"Perimetro:"<<t.cat1 + t.cat2 + t.hip<<endl;
-    }
+  {
+    cout<<endl<<"O valor da hipotenusa é   :  "<<sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2))<<endl;
+
+    
+    return 0;
+  }
+
+  float perimetro(tTriangulo t)
+  {
+    cout<<"A mediada do perimetro é  :  "<<t.cat1 + t.cat2 + (sqrt((t.cat1*t.cat1) + (t.cat2*t.cat2)))<<endl;
+
+    return 0;
+  }
+
   float area(tTriangulo t)
-    {
-     cout<<"Area:"<<(t.cat1 * t.cat2) / 2<<endl;
-    }
+  {
+    cout<<"A medida da area é        :  "<<(t.cat1 * t.cat2) / 2<<endl;
 
-  
+    return 0;
+  }
 
-
-}
+};
